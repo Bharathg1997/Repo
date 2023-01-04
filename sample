@@ -7,11 +7,5 @@ pipeline {
                 sh 'java -version'
             }
         }
-        stage('maven version') {
-            steps {
-                sh 'echo maven version'
-                sh 'mvn -version'
-            }
-        }
     }
 }
